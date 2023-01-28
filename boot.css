@@ -7,7 +7,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1em; /*Contabiliza a largura a parti da borda*/
     box-sizing: border-box;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .btn{
-    padding: 8px 50px;
+    padding: 8px 20px;
     font-weight: normal;
     margin: 20px 4px;
     border-radius: 5px;
@@ -52,6 +52,15 @@
 
 .btn_blue{
     background-color: #1773ea;
+    color: #FFF;
+}
+
+.btrn_gren:hover{
+    background-color: #ff3333;    
+}
+
+.btn_blue1{
+    background-color: #0c0c0c;
     color: #FFF;
 }
 

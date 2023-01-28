@@ -6,7 +6,7 @@
 header h1{
     font-size: 20px;
     text-align: center;
-    margin: 20px;    
+    margin: 20px;
 }
 
 header a{
@@ -16,7 +16,7 @@ header a{
 
 header a:hover{
     cursor: pointer;
-    color: blue;
+    color: blue ;
     text-decoration: underline;
 }
 
@@ -57,8 +57,8 @@ main_blog article p{
     color: #CCC;
     font-size: 1.4em;
     font-weight: bold;
-    border-bottom: 1px solid #CCC;
-    padding-bottom: 4px;/*Espaçamento da linha*/   
+    border-bottom: 1px solid #CCC;/*Cria a libha contínua abaixo do titulo*/
+    padding-bottom: 4px;/*Espaçamento da linha com o titulo*/   
     margin: 20px auto;    
 }
 .footer{
