@@ -1,0 +1,73 @@
+/* 
+    Created on : 7 de jan. de 2023, 05:15:57
+    Author     : fabio
+*/
+
+header h1{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;    
+}
+
+header a{
+    font-size: 18px;
+    text-align: center;
+}
+
+header a:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+header p{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+}
+
+.main_blog {
+    max-width: calc(1000px - 80px); /*Deixando o blog de forma fluida, descontando o padding que tem 40px d e E e 40px C e B= 80px*/
+    width: calc(96% - 80px); /*Deixa reponsivo*/
+    background-color: #CCC;
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; /*Quebra o conteúdo deixando um a baixo do outro*/
+    justify-content: space-between; /*Espaçamento entre os elementos*/
+}
+
+.main_blog header{
+    flex-basis: 100%;
+}
+
+.main_blog article {
+    flex-basis: calc(50% - 40px - 20px);
+    padding: 10px 20px;
+    background-color: #333;
+    color: #FFF;
+    margin: 20px 0;
+}
+
+main_blog article p{
+    font-size: 1.1em; /* É igual a 100% da font padrão do navegador*/
+}
+
+.title_medium_lightgray{
+    color: #CCC;
+    font-size: 1.4em;
+    font-weight: bold;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 4px;/*Espaçamento da linha*/   
+    margin: 20px auto;    
+}
+.footer{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 640px){ /*Designer Responsivo*/
+    .main_blog article{
+        flex-basis: calc(100% - 40px);
+    }
+}
